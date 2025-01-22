@@ -45,12 +45,54 @@ Learn and Contribute
 > - Use the **same number of spaces (or tabs)** for all lines in a block.
 
 
-# ATOMS
-Atoms are the smallest units of Python syntax that cannot be broken down further.
+- ### Atoms
+    - Atoms are the smallest units of code that cannot be broken down further.
 
 
-![ATOMS Diagram](https://www.mermaidchart.com/raw/50075e73-afbd-48e6-baa1-02512ca472cd?theme=light&version=v0.1&format=svg)
+- ### *Identifiers:* 
+    - Identifiers are the names used to identify variables, functions, classes, modules, or other objects in Python.
+    - **Rules** for Naming Identifiers:
+        1. Can only contain **letters** (A-Z, a-z), **digits** (0-9), and **underscores** (_).
+        2. **Must start with** a **letter or underscore** (_), not a digit.
+        3. Cannot use Python keywords or built-in function names.
+        4. Case-sensitive (Name and name are different).
 
+- ### *Literals:*
+    - They are fixed values assigned to variables in the program.
+        ```python
+        # Integer literal
+        num = 42  # 42 A whole number
+        # Float literal
+        x = 5.1454  # 3.15 A decimal number
+        # String literal
+        name = "ChatGPT"  # A sequence of characters
+        # Complex literal
+        complex_num = 2 + 3j  # A complex number with a real and imaginary part
+        # None literal
+        value = None  # Represents the absence of a value or null
+        # Multiline string literal
+        multiline_text = """This is a
+        multiline string."""
+- ### *Constants:*
+    - Constants are fixed, unmodifiable values.
+
+## Keywords
+- Keywords are reserved words in Python that have predefined meanings and cannot be used as identifiers.
+    - Case Sensitive
+    - **35 Keywords**
+    - ```python
+        #Use keyword module to list all keywords
+        import keyword
+        print(keyword.kwlist)
+    - ```
+        """
+        ['False', 'None', 'True', 'and', 'as', 'assert', 'async',
+         'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 
+         'else', 'except', 'finally', 'for', 'from', 'global', 'if', 
+         'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 
+         'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+        """
+    
 <details open>
 <summary>Course Outline</summary>
 <h2>Python Programming: Course Outline</h2>
@@ -60,12 +102,62 @@ Atoms are the smallest units of Python syntax that cannot be broken down further
     <li><strong>Input and Output Handling</strong>: Interacting with users and displaying results.</li>
     <li><strong>Conditional Statements and Branching</strong>: Decision-making in Python.</li>
     <li><strong>Looping Constructs</strong>: Repeating tasks efficiently.</li>
-    <li><strong>Recursion</strong>: The art of self-referential functions.</li>
     <li><strong>Functions</strong>: Modularize and reuse code effectively.</li>
+    <li><strong>Recursion</strong>: The art of self-referential functions.</li>
     <li><strong>Classes, Objects, and Methods</strong>: Exploring the world of Object-Oriented Programming.</li>
     <li><strong>Data Structures and Algorithms</strong>: Organize and manipulate data like a pro.</li>
     <li><strong>Searching and Sorting Techniques</strong>: Optimizing data retrieval and organization.</li>
 </ol>
 </details>
 
+## Basic Python Programs
+1. Check if a number is prime or not 
+2. Find the factorial of a number  
+3. Check if a string is a palindrome  
+4. Fibonacci Series  
+5. Sum of natural numbers  
+6. Armstrong number  
+7. Reverse a string  
+8. Area of a circle  
+9. Generate Multiplication Table  
+10. Calculate GCD of two numbers  
+11. Count the occurrence of a character in a string  
+12. Convert temperature from Celsius to Fahrenheit  
+13. Check if a year is a leap year  
+14. Find the largest number in a list  
+15. Sort a list of numbers  
+16. Generate a random number  
+17. Solve quadratic equations  
+18. Count vowels and consonants in a string  
+19. Calculate the area of a rectangle  
+20. Check if a number is an even or odd number
+21. Generate a histogram from a list  
+22. Check if a number is a perfect number  
+23. Calculate the LCM of two numbers  
+24. Solve a basic mathematical expression (e.g., arithmetic operations)  
+25. Remove vowels from a string  
+26. Check if a string is a valid email  
+27. Check if a number is a palindrome  
+28. Create a simple calculator with basic operations  
+29. Find the sum of digits of a number  
+30. Implement a simple password validator  
+31. Count the number of elements greater than a given value in a list  
+32. Check if a number is a power of 2  
+33. Convert binary to decimal and vice versa  
+34. Generate combinations of a given length  
+35. Create a simple to-do list  
+36. Calculate the area of a parallelogram  
+37. Count the number of special characters in a string  
+38. Check if a list contains duplicate elements
 
+## Intermediate Python Programs (Level 2)
+1. Evaluate the prefix expression `*+23+54`.  
+2. Evaluate the postfix expression `23+54+*`.  
+3. Convert infix to postfix for `((3 + 4) * (5 - 2))`.  
+4. Convert infix to prefix for `((3 + 4) * (5 - 2))`.  
+5. Evaluate the prefix expression `+ * 5 3 - 8 2`.  
+6. Evaluate the postfix expression `23 45 6 * +`.  
+7. Identify errors in prefix expression `*+23-54`.  
+8. Evaluate the postfix expression `5 1 2 + 4 * + 3 -`.  
+9. Validate prefix expression `* + 2 3 5`.  
+10. Validate postfix expression `23 45 + *`.

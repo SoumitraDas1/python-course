@@ -47,26 +47,25 @@ Learn and Contribute
 
 # ATOMS
 Atoms are the smallest units of Python syntax that cannot be broken down further.
-```mermaid
-graph TD;
-    ATOMS-->Identifier;
-    ATOMS-->(),[],{};
-    ATOMS-->Literals;
-    ATOMS-->Constants;
-``` 
+
+
+![ATOMS Diagram](https://www.mermaidchart.com/raw/50075e73-afbd-48e6-baa1-02512ca472cd?theme=light&version=v0.1&format=svg)
 
 <details open>
 <summary>Course Outline</summary>
-## Python Programming: Course Outline <br>
-1. **Understanding Data Types**: The building blocks of Python.  
-2. **Mastering Operators**: Perform calculations and logical operations.  
-3. **Input and Output Handling**: Interacting with users and displaying results.  
-4. **Conditional Statements and Branching**: Decision-making in Python.  
-5. **Looping Constructs**: Repeating tasks efficiently.  
-6. **Recursion**: The art of self-referential functions.  
-7. **Functions**: Modularize and reuse code effectively.  
-8. **Classes, Objects, and Methods**: Exploring the world of Object-Oriented Programming.  
-9. **Data Structures and Algorithms**: Organize and manipulate data like a pro.  
-10. **Searching and Sorting Techniques**: Optimizing data retrieval and organization.  
+<h2>Python Programming: Course Outline</h2>
+<ol>
+    <li><strong>Understanding Data Types</strong>: The building blocks of Python.</li>
+    <li><strong>Mastering Operators</strong>: Perform calculations and logical operations.</li>
+    <li><strong>Input and Output Handling</strong>: Interacting with users and displaying results.</li>
+    <li><strong>Conditional Statements and Branching</strong>: Decision-making in Python.</li>
+    <li><strong>Looping Constructs</strong>: Repeating tasks efficiently.</li>
+    <li><strong>Recursion</strong>: The art of self-referential functions.</li>
+    <li><strong>Functions</strong>: Modularize and reuse code effectively.</li>
+    <li><strong>Classes, Objects, and Methods</strong>: Exploring the world of Object-Oriented Programming.</li>
+    <li><strong>Data Structures and Algorithms</strong>: Organize and manipulate data like a pro.</li>
+    <li><strong>Searching and Sorting Techniques</strong>: Optimizing data retrieval and organization.</li>
+</ol>
 </details>
+
 

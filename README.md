@@ -111,16 +111,16 @@ Learn and Contribute
 </details>
 
 ## Basic Python Programs
-1. Check if a number is prime or not 
-2. Find the factorial of a number  
-3. Check if a string is a palindrome  
-4. Fibonacci Series  
+1. **Check if a number is prime or not** 
+2. **Find the factorial of a number** 
+3. **Check if a string is a palindrome**  
+4. **Write a Python Program to generate first 'N' *Fibonacci Series*/numbers**  
 5. Sum of natural numbers  
 6. Armstrong number  
 7. Reverse a string  
-8. Area of a circle  
+8. **Write  a menu driven program using user defined functions to find Area of a circle** 
 9. Generate Multiplication Table  
-10. Calculate GCD of two numbers  
+10. **Calculate GCD of two numbers**  
 11. Count the occurrence of a character in a string  
 12. Convert temperature from Celsius to Fahrenheit  
 13. Check if a year is a leap year  
@@ -129,7 +129,7 @@ Learn and Contribute
 16. Generate a random number  
 17. Solve quadratic equations  
 18. Count vowels and consonants in a string  
-19. Calculate the area of a rectangle  
+19. **Write  a menu driven program using user defined functions to Calculate the area of a rectangle/square** 
 20. Check if a number is an even or odd number
 21. Generate a histogram from a list  
 22. Check if a number is a perfect number  
@@ -149,6 +149,32 @@ Learn and Contribute
 36. Calculate the area of a parallelogram  
 37. Count the number of special characters in a string  
 38. Check if a list contains duplicate elements
+39. Remove a string from a list in Python.
+40. Check if a string appears in another string from a list in Python.
+41. **Write a Python program to perform `Insertion sort` of an array/list.**
+42. **Write a Python program to perform `Selection sort` of an array/list.**
+43. **Write a Python program to perform `Bubble sort` of an array/list.**
+44. **Write a python program that implements *Stack Operation*** 
+45. **Write a python program that implements *Queue Operation*** 
+46. **Implement *Queue* using *List***
+47. **Write a python program to implement a *Circular Queue***
+48. **Write a program to print following pattern in Python**
+```
+*
+**
+***
+****
+*****
+```
+49. **Write a Python Code to perform `Binary Search` Technique.**
+50. **Write a Python Code to Perform  `Linear Srarch` Technique**.
+51. **Write a  Python Program to that find out factorial of a number using recursion.**
+52. **Write a Python Program Using recursion to generate ten odd numbers.**
+53. **Write a Python Program to find the sum of series:**
+$$
+S = \frac{1}{1!} - \frac{2}{2!} + \frac{3}{3!} - \frac{4}{4!} +... \frac{n}{n!} 
+$$
+54. **Write a Python Program to add two Matrix**
 
 ## Intermediate Python Programs (Level 2)
 1. Evaluate the prefix expression `*+23+54`.  
@@ -161,3 +187,4 @@ Learn and Contribute
 8. Evaluate the postfix expression `5 1 2 + 4 * + 3 -`.  
 9. Validate prefix expression `* + 2 3 5`.  
 10. Validate postfix expression `23 45 + *`.
+

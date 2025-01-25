@@ -175,6 +175,18 @@ $$
 S = \frac{1}{1!} - \frac{2}{2!} + \frac{3}{3!} - \frac{4}{4!} +... \frac{n}{n!} 
 $$
 54. **Write a Python Program to add two Matrix** *
+55. WAP to calculate total marks, percentage and grade of a student. Marks obtained in each of
+the three subjects are to be input by the user. Assign grades according to the following
+criteria :
+    ```
+    Grade A: Percentage >=80
+    Grade B: Percentage>=70 and <80
+    Grade C: Percentage>=60 and <70
+    Grade D: Percentage>=40 and <60 
+    Grade E: Percentage<40 
+    ```
+56. Write a menu driven program to convert the given temperature from Fahrenheit to Celsius and vice versa depending upon users choice. 
+
 
 ## Intermediate Python Programs (Level 2)
 1. Evaluate the prefix expression `*+23+54`.  

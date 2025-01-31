@@ -171,9 +171,7 @@ Learn and Contribute
 51. **Write a  Python Program to that find out factorial of a number using recursion.** *
 52. **Write a Python Program Using recursion to generate ten odd numbers.** *
 53. **Write a Python Program to find the sum of series:** *
-$$
-S = \frac{1}{1!} - \frac{2}{2!} + \frac{3}{3!} - \frac{4}{4!} +... \frac{n}{n!} 
-$$
+S = 1/1! - 2/2! + 3/3! - 4/4! + ... + (-1)^(n+1) * n/n!
 54. **Write a Python Program to add two Matrix** *
 55. WAP to calculate total marks, percentage and grade of a student. Marks obtained in each of
 the three subjects are to be input by the user. Assign grades according to the following
